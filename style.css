@@ -1,0 +1,456 @@
+*, body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.vh-video {
+  height: auto;
+  min-height: auto;
+  position: fixed;
+  align-items: center;
+}
+
+.pt {
+  padding-top: 20%;
+}
+.pt2 {
+  padding-top: 30%;
+}
+
+.margin {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  padding-top: 45%;
+}
+
+.container-bg-shorts {
+  background-color: black;
+  height: 100%;
+}
+
+.container-shorts {
+  position: absolute;
+  bottom: 15px;
+}
+
+.card-channel-shorts {
+  display: flex;
+  align-items: center;
+}
+
+.margin-title-shorts {
+  margin-right: 60px;
+}
+
+.icon-ch-shorts {
+  width: 40px;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-right: 7px;
+  transition: all 1s ease-in-out;
+}
+
+.icon-ch-shorts:hover {
+  box-shadow: .3px .3px .6px .6px #9000ff;
+}
+
+.name-channel-shorts {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+button {
+   background-color: #c80000;
+   padding: 5px 7px;
+   margin-left: 7px;
+   border-radius: 3px;
+   color: white;
+   font-size: 12px;
+   font-weight: 600;
+   transition: all .2s ease-in-out;
+   cursor: text;
+   border: none;
+}
+
+button:hover {
+  color: #929292;
+  background-color: #646464;
+}
+
+.title-content-shorts {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.icon-back {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 40px;
+  height: 40px;
+  transition: all .6s ease-in-out;
+}
+
+.icon-back:hover {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: hsla(0,0%,60.8%,0.294);
+}
+
+a img{
+  cursor: none;
+  width: 25px;
+  margin-top: 6px;
+  margin-left: 6px;
+  transition: all .6s ease-in-out;
+}
+
+a img:hover {
+  opacity: 45%;
+}
+
+/*DI BAWAH INI ADALAH CODINGAN ICON SAMPING*/
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5px;
+  margin-left: 35px;
+  bottom: 20px;
+}
+
+.container-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-right {
+  width: 30px;
+  margin-top: 17px;
+  transition: all .5s ease-in-out;
+}
+
+.icon-right:hover {
+  opacity: 45%;
+}
+
+.icon-right-like {
+  width: 30px;
+  margin-top: 10px;
+  transition: all .5s ease-in-out;
+}
+
+.icon-right-like:hover {
+  opacity: 45%;
+  color: blue;
+}
+
+.title-icon-right {
+  color: white;
+  font-size: 12;
+}
+
+.icon-right-dots {
+  transition: all .5s ease-in-out;
+}
+
+.icon-right-dots:hover {
+  opacity: 45%;
+}
+
+.icon-right-rgb {
+  width: 40px;
+  margin-top: 15px;
+  border-radius: 5px;
+  animation: RGB 8s infinite;
+}
+
+@keyframes RGB {
+  0% {
+    background-color: #ff005e;
+  }
+  20% {
+    background-color: #0fcfff;
+  }
+  40% {
+    background-color: #ffac00;
+  }
+  60% {
+    background-color: #23ff7e;
+  }
+  80% {
+    background-color: #e900ff;
+  }
+  100% {
+    background-color: #ff00e9;
+  }
+}
+
+ /*CODIGAN DI VAWAH INI ADALAH CODINGAN DESCRIPTION*/
+
+
+.container-shorts-description {
+  position: relative;
+  border-top: 1.2px solid white;
+  background: black;
+  height: auto;
+  width: 100%;
+}
+
+.container-description {
+  margin-left: 14px;
+  margin-right: 35px;
+}
+
+.border-bottom-description {
+  margin-top: 5px;
+  margin-right: 14px;
+  margin-right: 14px;
+  border-bottom: 1.1px solid #4e5151;
+}
+
+.description-title {
+  color: #cbcbcb;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .35px;
+}
+
+.description-shorts {
+  color: #4e5151;
+  font-size: 13px;
+}
+
+.sm {
+  font-size: 12px;
+}
+
+.date-info {
+  margin-top: 8px;
+  margin-left: 14px;
+}
+
+.btn-nxt-next {
+  background-color: #7639ff;
+  padding: 5px 10px;
+  position: absolute;
+  align-items: center;
+  right: 4%;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  cursor: none;
+}
+
+button a:hover {
+  color: #929292;
+  background-color: #646464;
+}
+
+.wrapper-masukan {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.icon-komen{
+  width: 25px;
+}
+
+.masukan {
+  color: white;
+  margin-right: 13px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/*CODINGAN KOMEN START*/
+
+.downbar {
+  background-color: black;
+  border-top: solid 2.5px #4e5151;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  display: none;
+  opacity: 90%;
+}
+
+.content-downbar {
+  height: auto;
+  background-color: black;
+}
+
+.downbar-open {
+  bottom: 0;
+  display: block;
+  color: white;
+}
+
+.icon-back-comment {
+  width: 30px;
+  padding: 5px;
+  margin: 8px;
+  background-color: #212121;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  transition: all .4s ease-in-out;
+}
+
+.icon-back-comment:hover {
+  background-color: #4e5151;
+  border-radius: 50px;
+}
+
+.items-comment {
+  margin-bottom: 35px;
+}
+
+.card-comment {
+  display: flex;
+  align-items: center;
+}
+
+.icon-comment {
+  width: 35px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: auto;
+  opacity: 100%;
+}
+
+.comment-text {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  margin-right: 10px;
+  margin-bottom: auto;
+  border-radius: 12px;
+  background-color: #212121;
+  opacity: 70%;
+  border: 1px solid #212121;
+  animation: bubble 10s infinite;
+}
+
+@keyframes bubble {
+  5% {
+    background-color: #212121;
+    opacity: 70%;
+  }
+  45% {
+    background-color: rgba(0,133,255,0.238);
+    opacity: 70%;
+  }
+  70% {
+    opacity: 70%;
+    background-color: rgba(186,0,255,0.306);
+  }
+}
+
+.txt-react {
+  display: flex;
+  align-items: center;
+  font-weight: 650;
+  margin-top: 0%;
+  color: #a9a9a9;
+  margin-right: 10%;
+  margin-top: 1%;
+  text-decoration: none;
+}
+
+.right {
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 17px;
+}
+
+.react {
+  background-color: #212121;
+  border-radius: 5px;
+  padding: 1px 4px ;
+  opacity: 70%;
+  margin-top: 1%;
+  padding: 1px 5px;
+  cursor: pointer;
+  animation: bubble 10s infinite;
+}
+
+.name-channel {
+  color: #cbcbcb;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.comment {
+  color: #a9a9a9;
+  font-size: 14px;
+}
+
+.icon-bagikan {
+  width: 27px;
+  padding: 5px;
+  margin-right: 5%;
+  object-fit: contain;
+  transition: all .4s ease-in-out;
+}
+
+.icon-bagikan:hover {
+  background: #212121;
+  border-radius: 50px;
+  width: 30px;
+  padding: 5px;
+}
+
+/*INI ADALAH CODINGAN POP UP*/
+
+
+.popup-muncul {
+  bottom: 0;
+  color: white;
+  display: none;
+}
+
+
+/*MEDIA QUERY*/
+
+@media screen and (min-width: 550px) {
+   video {
+    position: fixed;
+  }
+  .container-description{
+    margin-right: 60%;
+  }
+  .btn-nxt-next {
+    right: 2%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  video {
+    position: fixed;
+}
+  .container-description {
+    margin-right: 65%;
+  }
